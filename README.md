@@ -1,17 +1,57 @@
-# React + Vite
+Practice Exercise – React Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create three components: Header, Main, and Footer
 
-Currently, two official plugins are available:
+Header:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Return a <header> tag that contains an <h1> and an <h2>.
+Create variables for your name, class, and the name of your program.
+Display the name of your program inside the <h1>, and your name + class inside the <h2>.
 
-## React Compiler
+Using CSS, give your header:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+a height of 200px
 
-## Expanding the ESLint configuration
+a light blue background color.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Components
+Main:
+
+Return a <main> tag and inside it, create a Top 5 list for any topic
+(for example: my top 5 favorite fruits, movies, travel destinations, etc.).
+It should be a numbered list, so use <li> tags.
+
+Extra:
+
+Create an array with your top 5 list items and display them using a loop.
+Extra 2:
+
+Create a component for your top 5 list that takes an array as props and then loops through it.
+
+Using CSS, give your div:
+
+a height of 200px
+
+a light green background color.
+
+Aside:
+
+Return an <aside> tag that contains links to external websites related to your top 5 list.
+(For example, if your top 5 list is about favorite movies, you can link to their IMDb pages such as:
+https://www.imdb.com/title/tt0816692/)
+
+Footer:
+
+Return a <footer> tag that contains the following text:
+@Copyright. All rights reserved by Batman.
+
+The text should be stored in a variable.
+
+Using CSS, give the footer:
+
+white text color
+
+black background color
+
+100px height
+
+Finally, render all components in the correct order inside App.js.
