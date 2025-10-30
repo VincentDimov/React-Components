@@ -1,57 +1,63 @@
-Practice Exercise – React Components
+# Practice Exercise #6 – React Components
 
-Create three components: Header, Main, and Footer
+Create three components: **Header**, **Main**, and **Footer**
 
-Header:
+## Header
 
-Return a <header> tag that contains an <h1> and an <h2>.
-Create variables for your name, class, and the name of your program.
-Display the name of your program inside the <h1>, and your name + class inside the <h2>.
+Return a `<header>` tag that contains an `<h1>` and an `<h2>`.
 
-Using CSS, give your header:
+Create variables for your **name**, **class**, and the **name of your program**.  
+Display the name of your program inside the `<h1>`, and your name + class inside the `<h2>`.
 
-a height of 200px
+With CSS:
+- Set the height to **200px**
+- Set the background color to **light blue**
 
-a light blue background color.
+---
 
-Main:
+## Main
 
-Return a <main> tag and inside it, create a Top 5 list for any topic
+Return a `<main>` tag and inside it, create a **Top 5 list** for any topic  
 (for example: my top 5 favorite fruits, movies, travel destinations, etc.).
-It should be a numbered list, so use <li> tags.
 
-Extra:
+It should be a **numbered list**, so use `<li>` tags.
 
-Create an array with your top 5 list items and display them using a loop.
-Extra 2:
+### Extra:
+- Create an **array** with your top 5 list items and display them using a **loop**.
 
-Create a component for your top 5 list that takes an array as props and then loops through it.
+### Extra 2:
+- Create a **component** for your top 5 list that takes an array as **props** and then loops through it.
 
-Using CSS, give your div:
+With CSS:
+- Set the height to **200px**
+- Set the background color to **light green**
 
-a height of 200px
+---
 
-a light green background color.
+## Aside
 
-Aside:
+Return an `<aside>` tag that contains **links to external websites** related to your top 5 list.  
+(For example, if your top 5 list is about favorite movies, you can link to their IMDb pages such as:  
+`https://www.imdb.com/title/tt0816692/`)
 
-Return an <aside> tag that contains links to external websites related to your top 5 list.
-(For example, if your top 5 list is about favorite movies, you can link to their IMDb pages such as:
-https://www.imdb.com/title/tt0816692/)
+---
 
-Footer:
+## Footer
 
-Return a <footer> tag that contains the following text:
+Return a `<footer>` tag that contains the following text:
+
 @Copyright. All rights reserved by Batman.
 
-The text should be stored in a variable.
 
-Using CSS, give the footer:
+The text should be stored in a **variable**.
 
-white text color
+With CSS:
+- Set the text color to **white**
+- Set the background color to **black**
+- Set the height to **100px**
 
-black background color
+---
 
-100px height
+## App.js
 
-Finally, render all components in the correct order inside App.js.
+Render all components in the correct order inside **App.js**.
